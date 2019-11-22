@@ -1,0 +1,214 @@
+body {
+	margin: auto;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+}
+
+.nav-ul {
+	background: #323232;
+	margin: auto;
+	text-align: center;
+	padding: 0px;
+}
+
+.nav-li {
+	display: inline-block;
+	color: white;
+	padding: 13px 30px;
+}
+
+.nav-a {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	text-decoration: none;
+}
+.nav-a:link {
+	color: #FFFFFF;	
+}
+.nav-a:visited {
+	color: #FFFFFF;
+}
+.nav-a:hover {
+	color: #B7B7B7
+}
+.nav-a:active {
+	color: #B7B7B7
+}
+.nav-a:focus {
+	color: #B7B7B7;
+}
+
+#logo {
+	height: 12px;
+}
+
+.head {
+	top: 100px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	margin: 0;
+}
+#thank-you {
+	top: 250px;
+}
+#submitted {
+	top: 300px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	margin: 0;
+	font-size: 18px;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin: 35px auto;
+}
+.icon-text {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	text-align: center;
+	font-size: 16px;
+}
+.icon-box {
+	box-sizing: border-box;
+	border: 2px solid #323232;
+	width: 300px;
+	height: 200px;
+	margin: 50px;
+}
+.main-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 150px auto 50px auto;
+}
+
+.form-head {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	font-size: 16px;
+	text-align: center;
+}
+.form {
+	border: 2px solid #323232;
+	width: 400px;
+	margin: 50px auto;	
+}
+.input {
+	display: block;
+	margin: 30px auto;
+	width: 250px;
+	height: 20px;
+	max-width: 250px;
+	min-width: 250px;
+}
+#message {
+	height: 100px;
+	min-height: 100px;
+}
+.input::-webkit-input-placeholder {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	font-size: 16px;
+}
+.input:-ms-input-placeholder {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	font-size: 16px;
+}
+.input:-moz-placeholder {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	font-size: 16px;
+}
+.input::-moz-placeholder {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	font-size: 16px;
+}
+#submit {
+	width: 100px;
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	display: block;
+	margin: 20px auto;
+}
+
+#done {
+	top: 150px;
+	position: absolute;
+	width: 100%;
+	margin: 0;
+}
+
+.resume-head {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	margin: 0px;
+	font-size: 16px;
+}
+.resume {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+}
+#photo {
+	width: 170px;
+	height: 227px;
+	margin: 0px 55px 50px 55px;
+}
+#resume {
+	margin: 0px 55px;
+}
+#container {
+	display: flex;
+	justify-content: center;
+	margin: 100px auto;
+	flex-wrap: wrap;
+}
+
+#download-icon {
+	width: 40px;
+	height: 40px;;
+	
+}
+#button-text {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	font-size: 16px;
+	margin: auto;
+}
+#download-button {
+	display: flex;
+	width: 150px;
+	text-decoration: none;
+}
+#download-button:visited {
+	color: #323232;
+}
+#download-button:hover {
+	color: #B7B7B7
+}
+#download-button:active {
+	color: #B7B7B7
+}
+#download-button:focus {
+	color: #B7B7B7;
+}
+
+.about {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	margin: 190px 15% 500px 15%;
+	text-align: center;
+	
+}
+
+.arc-li {
+	border: 2px solid #323232;
+	top: 200px;
+	position: absolute;
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	margin: 0;
+	width: 50%;
+	padding: 30px 60px;
+
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RA-Web</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header id="header">
+  <ul class="nav-ul">
+    <li class="nav-li"><a href="index.html"><img id="logo" src="images/logo.png" alt="logo"/></a></li>
+    <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+    <li class="nav-li"><a class="nav-a" href="about.html">About</a></li>
+    <li class="nav-li"><a class="nav-a" href="resume.html">Resume</a></li>
+    <li class="nav-li"><a class="nav-a" href="archive.html">Archive</a></li>
+    <li class="nav-li"><a class="nav-a" href="contact.html" style="color: #B7B7B7">Contact</a></li>
+  </ul>
+</header>
+<h1 class="head">Get in touch</h1>
+<div class="main-box">
+  <div class="icon-box">
+	  <img src="images/phone.svg" alt="phone" class="icon">
+	  <h1 class="icon-text">Talk to me</h1>
+	  <h1 class="icon-text">+90 5** *** ** **</h1>
+  </div>
+  <div class="icon-box">
+	  <img id="icon-mail" class="icon" src="images/mail.svg" alt="mail">
+	  <h1 class="icon-text">Mail to me</h1>
+	  <h1 class="icon-text">rustem.agaoglu@agu.edu.tr</h1>
+	</div>
+</div>
+<div class="form">
+	<img class="icon" src="images/chat.svg" alt="chat">
+	<h1 class="form-head">Text me now</h1>
+	<form method="post" name="myemailform" action="form-to-email.php">
+		<input class="input" type="text" name="name" placeholder="Full name">
+		<input class="input" type="email" name="email" placeholder="E-mail">
+		<textarea class="input" id="message" name="message" placeholder="Your message"></textarea>	
+		<input id="submit" type="submit" name="submit" value="Send">
+	</form>
+</div>
+</body>
+</html>
