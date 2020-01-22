@@ -212,3 +212,22 @@ header {
 	padding: 30px 60px;
 
 }
+.arc-a {
+	font-family: "Myriad Pro Light", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+	text-decoration: none;
+}
+.arc-a:link {
+	color: #323232;
+}
+.arc-a:visited {
+	color: #AB0000;
+}
+.arc-a:hover {
+	color: #B7B7B7
+}
+.arc-a:active {
+	color: #B7B7B7
+}
+.arc-a:focus {
+	color: #B7B7B7;
+}
