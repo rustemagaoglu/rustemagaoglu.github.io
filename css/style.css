@@ -45,6 +45,10 @@ header {
 #logo {
 	height: 12px;
 }
+#icon_external_link {
+	height: 12px;
+	padding-left: 10px;
+}
 
 .head {
 	top: 100px;
